@@ -14,7 +14,7 @@ int main(){
 
     for(int i = 2; i <= 100; i++){
         bool IsPrime = PrimeCheck(i);
-        if(IsPrime){
+        if(IsPrime){ // here i am not writing IsPrime == true cause i can use it as i used
             cout << i << " ";
         }
     }
