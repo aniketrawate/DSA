@@ -15,12 +15,14 @@ void Sort0_1Array(int arr[], int SizeOfArray){
     cout << "No of zeros:" << NoOfZeros << endl;
     cout << "No of ones:" << NoOfOnes << endl;
     
+    // Insertion
     for(int i = 0; i < NoOfZeros; i++){
         arr[i] = 0;
     }
     for(int i = NoOfZeros; i < SizeOfArray; i++){
         arr[i] = 1;
     }
+    // Printing array 
     for(int i = 0; i < SizeOfArray; i++){
         cout << arr[i] << " ";
     }
