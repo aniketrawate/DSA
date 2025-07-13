@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
 
-    vector<vector<int>> Arr (4, vector<int>(5, 1));
+    vector<vector<int> > Arr (4, vector<int>(5, 1));
 
     int Row = Arr.size();
     int Col = Arr[0].size();
